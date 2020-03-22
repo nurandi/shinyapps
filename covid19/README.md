@@ -15,7 +15,7 @@ Built in [R](https://www.r-project.org/) using [Shiny](https://shiny.rstudio.com
 * Map: [leaflet](https://rstudio.github.io/leaflet/) 
 * Chart: [plotly](https://plot.ly/r/)
 * Table: [DT](https://rstudio.github.io/DT/)
-* Data prepartation: [dplyr](https://dplyr.tidyverse.org/), [stringr](https://stringr.tidyverse.org/), [lubridate](https://lubridate.tidyverse.org/), [markdown](https://cran.r-project.org/web/packages/markdown/index.html)
+* Data prepartation: [dplyr](https://dplyr.tidyverse.org/), [stringr](https://stringr.tidyverse.org/), [tidyr](https://tidyr.tidyverse.org/index.html) [lubridate](https://lubridate.tidyverse.org/), [markdown](https://cran.r-project.org/web/packages/markdown/index.html)
 * Deployment: [shinyapps.io](https://www.shinyapps.io/)
 
 
