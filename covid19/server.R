@@ -69,7 +69,7 @@ function(input, output) {
   output$confirmed <- renderValueBox({
     valueBox(
       value = format(sum_data()$confirmed, big.mark = ","),
-      subtitle = "Total confirmed",
+      subtitle = paste("Total confirmed", "by", as.character(current_day, format="%b %d, %Y"), sep =" "),
       icon = icon("bed"),
       color = "blue")
   })
