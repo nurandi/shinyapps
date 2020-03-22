@@ -2,13 +2,12 @@
 
 library(shiny)
 library(shinydashboard)
-library(tidyverse)
 library(lubridate)
 library(leaflet)
 library(stringr)
 library(DT)
 library(plotly)
-
+library(markdown)
 
 # read csv data from Github
 
