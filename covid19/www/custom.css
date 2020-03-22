@@ -18,3 +18,7 @@ border-left-color:#666666;
 border-right-color:#666666;
 border-top-color:#666666;
 }
+
+img.img-hidden{
+	display:none !important;
+}
