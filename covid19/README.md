@@ -1,6 +1,8 @@
 # About this Dashboard
 
----
+
+<img src="screenshot.png" class="img-hidden" alt="COVID-19 Dashboard by Nur Andi Setiabudi">
+
 
 Dashboard to present COVID-19 pandemic. 
 
@@ -42,9 +44,6 @@ Report issue(s) [here](https://github.com/nurandi/shinyapps/issues)
 Nur Andi Setiabudi  
 Blog: [NURANDI.ID](https://nurandi.id)  
 Email: [nurandi.mail@gmail.com](mailto:nurandi.mail@gmail.com)  
-
-
-<img src="screenshot.png" class="img-hidden" alt="COVID-19 Dashboard by Nur Andi Setiabudi">
 
 ---
 
