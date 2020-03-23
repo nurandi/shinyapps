@@ -3,8 +3,6 @@
 
 <img src="screenshot.png" class="img-hidden" alt="COVID-19 Dashboard by Nur Andi Setiabudi">
 
-<img src="screenrecord.gif" class="img-hidden" alt="COVID-19 Dashboard by Nur Andi Setiabudi (Screen Record)">
-
 
 ### *Dashboard to present COVID-19 pandemic.* 
 
