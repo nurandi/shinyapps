@@ -3,10 +3,12 @@
 
 <img src="screenshot.png" class="img-hidden" alt="COVID-19 Dashboard by Nur Andi Setiabudi">
 
+<img src="screenrecord.gif" class="img-hidden" alt="COVID-19 Dashboard by Nur Andi Setiabudi (Screen Record)">
 
-Dashboard to present COVID-19 pandemic. 
 
-Built in [R](https://www.r-project.org/) using [Shiny](https://shiny.rstudio.com/) [dashboard](https://rstudio.github.io/shinydashboard/).
+### *Dashboard to present COVID-19 pandemic.* 
+
+*Built in [R](https://www.r-project.org/) using [Shiny](https://shiny.rstudio.com/) [dashboard](https://rstudio.github.io/shinydashboard/).*
 
 
 ## Tools
