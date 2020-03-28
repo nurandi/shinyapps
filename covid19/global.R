@@ -37,7 +37,10 @@ all_data <- confirmed %>%
   left_join(death, by = c("Country.Region", "Province.State", "Day")) %>%
   mutate(Day = mdy(sub("X","", Day)),
          state = if_else(Province.State == "", Country.Region, Province.State, Province.State),
-         active = Total.x - (Total.y + Total)) %>%
+         confirmed = ifelse(is.na(Total.x), 0, Total.x),
+         recovered = ifelse(is.na(Total.y), 0, Total.y),
+         death     = ifelse(is.na(Total),   0, Total),
+         active    = confirmed - (recovered +  death)) %>%
   group_by(Country.Region) %>%
   mutate(lon_country = mean(Long),
          lat_country = mean(Lat)) %>%
@@ -49,9 +52,9 @@ all_data <- confirmed %>%
          lat = Lat,
          lon_country,
          lat_country,
-         confirmed = Total.x,
-         recovered = Total.y,
-         death = Total,
+         confirmed,
+         recovered,
+         death,
          active)
 
 
